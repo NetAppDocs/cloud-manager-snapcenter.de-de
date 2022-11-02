@@ -1,0 +1,96 @@
+---
+settings:
+  name: SnapCenter Service
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: de-de,us-en,ja-jp,zh-cn,zh-tw,ko-kr,fr-fr
+sidebar:
+  entries:
+  - title: SnapCenter – Servicedokumentation
+    url: "/index.html"
+  - title: Versionshinweise
+    url: "/whats-new.html"
+  - title: Los geht's
+    entries:
+    - title: Erfahren Sie mehr über den SnapCenter-Service
+      url: "/concept-overview-architecture-limitation-functionalities-snapcenter-service.html"
+    - title: Schnellstart
+      url: "/reference-get-started-snapcenter-service.html"
+    - title: Voraussetzungen zum Erstellen von Konnektor und Aktivieren des SnapCenter-Dienstes
+      url: "/reference-prerequisites-azure-connector-snapcenter-service.html"
+    - title: Connector in Azure für SnapCenter-Service erstellen
+      url: "/task-create-azure-connector-user-consent-snapcenter-service.html"
+    - title: Aktivieren des SnapCenter-Service für Azure NetApp Files
+      url: "/task-enable-snapcenter-service-azure-netapp-files.html"
+    - title: Installieren Sie den HDBSQL-Client
+      url: "/task-install-hdbsql-client-snapcenter-service.html"
+  - title: Sicherung von SAP HANA Systemen mit dem SnapCenter-Service
+    entries:
+    - title: SAP HANA-Systeme hinzufügen
+      url: "/task-add-sap-hana-systems-non-data-volumes-snapcenter-service.html"
+    - title: SAP HANA Systeme sichern
+      url: "/task-create-backup-ondemand-policies-schedule-sap-hana.html"
+    - title: Wiederherstellung von SAP HANA Systemen
+      url: "/task-restore-sap-hana-systems.html"
+    - title: Managen von Abläufen
+      url: "/reference-manage-dashboard-monitor-notification-snapcenter-service.html"
+    - title: Fehler beheben
+      url: "/reference-troubleshoot-solution-issue.html"
+  - title: Wissen und Support
+    entries:
+    - title: Für den Support anmelden
+      url: "/task-support-registration.html"
+    - title: Holen Sie sich Hilfe
+      url: "/task-get-help.html"
+  - title: Rechtliche Hinweise
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Was ist neu
+      url: "/whats-new.html"
+    - title: Erfahren Sie mehr über den SnapCenter-Service
+      url: "/concept-overview-architecture-limitation-functionalities-snapcenter-service.html"
+    - title: Schnellstart
+      url: "/reference-get-started-snapcenter-service.html"
+  - title: Aktivieren Sie den SnapCenter-Dienst
+    links:
+    - title: Voraussetzungen
+      url: "/reference-prerequisites-azure-connector-snapcenter-service.html"
+    - title: Einen Konnektor erstellen
+      url: "/task-create-azure-connector-user-consent-snapcenter-service.html"
+    - title: Aktivieren Sie den SnapCenter-Dienst
+      url: "/task-enable-snapcenter-service-azure-netapp-files.html"
+    - title: Installieren Sie den HDBSQL-Client
+      url: "/task-install-hdbsql-client-snapcenter-service.html"
+  - title: Schutz von SAP HANA Systemen
+    links:
+    - title: SAP HANA-Systeme hinzufügen
+      url: "/task-add-sap-hana-systems-non-data-volumes-snapcenter-service.html"
+    - title: SAP HANA Systeme sichern
+      url: "/task-create-backup-ondemand-policies-schedule-sap-hana.html"
+    - title: Wiederherstellung von SAP HANA Systemen
+      url: "/task-restore-sap-hana-systems.html"
+  - title: Wissenssupport
+    links:
+    - title: Für den Support anmelden
+      url: "/task-support-registration.html"
+    - title: Holen Sie sich Hilfe
+      url: "/task-get-help.html"
+  - title: Blogs Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central Blog
+      url: https://cloud.netapp.com/blog
+    - title: Cloud-Webinare
+      url: https://cloud.netapp.com/events
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
+  sidebar_label: Alle Dokumentationen zum Cloud Manager
